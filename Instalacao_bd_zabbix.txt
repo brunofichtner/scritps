@@ -51,6 +51,6 @@ bind-address            = 0.0.0.0
 
 ##ativar os serviços do Zabbix e realizar o primeiro acesso.
 
-systemctl enable enable mariadb@.service
+systemctl enable mariadb.service
 /etc/init.d/mariadb start
 /etc/init.d/mariadb status
